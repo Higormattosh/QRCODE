@@ -15,7 +15,6 @@ body, html {
 .QR ul {
     background: white;
     width: 17rem;
-    height: 26rem;
     border-radius: 0.8rem;
 
     display: grid;
