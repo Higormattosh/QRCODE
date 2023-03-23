@@ -23,6 +23,10 @@ body, html {
     text-align: center;
 }
 
+.QR ul li:nth-child(1){
+    margin-top: 1rem;
+}
+
 .QR ul li:nth-child(2) {
     margin: 0.5rem;
     margin-top: 1.2rem;
@@ -31,17 +35,19 @@ body, html {
 .QR ul li:nth-child(3){
     margin: 0.5rem;
     height: 4rem;
+    margin-bottom: 1rem;
 }
 
 .QR ul li h1{
     font-size: 1.2rem;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
 }
 
 .QR ul li h2{
-    font-size: 1rem;
     font-weight: 400;
-    color: darkgray;
+    color: hsl(212, 45%, 89%);
+    font-size: 15px;
 }
 
 .QR ul li img {
