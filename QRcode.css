@@ -1,0 +1,51 @@
+
+body, html {
+    background: #D6E1F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.QR {
+    display: grid;
+    justify-content: center;
+}
+
+.QR ul {
+    background: white;
+    width: 17rem;
+    height: 26rem;
+    border-radius: 0.8rem;
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.QR ul li:nth-child(2) {
+    margin: 0.5rem;
+    margin-top: 1.2rem;
+}
+
+.QR ul li:nth-child(3){
+    margin: 0.5rem;
+    height: 4rem;
+}
+
+.QR ul li h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.QR ul li h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: darkgray;
+}
+
+.QR ul li img {
+    width: 15rem;
+    border-radius: 0.5rem;
+}
